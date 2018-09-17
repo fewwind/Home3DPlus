@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/layout_group"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/shadow_home" />
+
+    <com.chaozhuo.familybrain.view.view3d.ThreeDLayout
+        android:id="@+id/three_layout1"
+        android:layout_alignParentTop="true"
+        app:layout_heightPercent="25%"
+        app:layout_marginLeftPercent="5.5%"
+        app:layout_marginRightPercent="1%"
+        app:layout_marginTopPercent="18.5%"
+        app:layout_widthPercent="17%" />
+
+    <com.chaozhuo.familybrain.view.view3d.ThreeDLayout
+        android:id="@+id/three_layout2"
+        android:layout_below="@+id/three_layout1"
+        app:layout_heightPercent="25%"
+        app:layout_marginLeftPercent="5.5%"
+        app:layout_marginRightPercent="1%"
+        app:layout_marginTopPercent="1.5%"
+        app:layout_widthPercent="17%" />
+
+    <com.chaozhuo.familybrain.view.view3d.ThreeDLayout
+        android:id="@+id/three_layout3"
+        android:layout_toRightOf="@+id/three_layout1"
+        app:layout_heightPercent="23.5%"
+        app:layout_marginRightPercent="1%"
+        app:layout_marginTopPercent="20%"
+        app:layout_widthPercent="17%" />
+
+    <com.chaozhuo.familybrain.view.view3d.ThreeDLayout
+        android:id="@+id/three_layout4"
+        android:layout_below="@+id/three_layout3"
+        android:layout_toRightOf="@+id/three_layout2"
+        app:layout_heightPercent="23.5%"
+        app:layout_marginRightPercent="1%"
+        app:layout_marginTopPercent="1.5%"
+        app:layout_widthPercent="17%" />
+
+    <com.chaozhuo.familybrain.view.view3d.ThreeDLayout
+        android:id="@+id/three_layout5"
+        android:layout_toRightOf="@+id/three_layout3"
+        app:layout_heightPercent="45.5%"
+        app:layout_marginRightPercent="1%"
+        app:layout_marginTopPercent="21.5%"
+        app:layout_widthPercent="17%" />
+
+    <com.chaozhuo.familybrain.view.view3d.ThreeDLayout
+        android:id="@+id/three_layout6"
+        android:layout_toRightOf="@+id/three_layout5"
+        app:layout_heightPercent="48.5%"
+        app:layout_marginRightPercent="1%"
+        app:layout_marginTopPercent="20%"
+        app:layout_widthPercent="17%" />
+
+    <com.chaozhuo.familybrain.view.view3d.ThreeDLayout
+        android:id="@+id/three_layout7"
+        android:layout_toRightOf="@+id/three_layout6"
+        app:layout_heightPercent="25%"
+        app:layout_marginRightPercent="5.5%"
+        app:layout_marginTopPercent="18.5%"
+        app:layout_widthPercent="17%" />
+
+    <com.chaozhuo.familybrain.view.view3d.ThreeDLayout
+        android:id="@+id/three_layout8"
+        android:layout_below="@+id/three_layout7"
+        android:layout_toRightOf="@+id/three_layout6"
+        app:layout_heightPercent="25%"
+        app:layout_marginRightPercent="5.5%"
+        app:layout_marginTopPercent="1.5%"
+        app:layout_widthPercent="17%" />
+
+    <com.chaozhuo.familybrain.view.view3d.ReflectView
+        android:id="@+id/reflect_mid"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/layout_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:visibility="gone" />
+
+</android.support.percent.PercentRelativeLayout>

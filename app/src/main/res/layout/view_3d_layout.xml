@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.chaozhuo.familybrain.view.view3d.ThreeDView
+        android:id="@+id/threeD_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.chaozhuo.familybrain.view.view3d.RotateTextView
+        android:id="@+id/threeD_tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+    <com.chaozhuo.familybrain.view.view3d.RotateTextView
+        android:id="@+id/threeD_tv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:paddingBottom="4dp"
+        android:visibility="visible"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:text="家庭大脑"
+        android:textColor="#fff"
+        android:textSize="8dp" />
+</RelativeLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/layout_group"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/shadow_home" />
+
+    <LinearLayout
+        android:id="@+id/layout_group"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <com.chaozhuo.familybrain.view.view3d.ShadowView
+            android:id="@+id/shadow_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/threed_padding_width"
+            android:layout_weight="3.6"
+            android:orientation="vertical">
+
+            <com.chaozhuo.familybrain.view.view3d.ThreeDView
+                android:id="@+id/three_view1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_43_1"
+                android:transitionName="fewwind" />
+
+            <com.chaozhuo.familybrain.view.view3d.ThreeDView
+                android:id="@+id/three_view2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_43_2"
+                android:transitionName="fewwind" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/threed_padding_width"
+            android:layout_marginRight="@dimen/threed_padding_width"
+            android:layout_weight="3.6"
+            android:orientation="vertical">
+
+            <com.chaozhuo.familybrain.view.view3d.ThreeDView
+                android:id="@+id/three_view3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.6"
+                android:orientation="horizontal">
+
+                <com.chaozhuo.familybrain.view.view3d.ThreeDView
+                    android:id="@+id/three_view4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_2_2" />
+
+                <com.chaozhuo.familybrain.view.view3d.ThreeDView
+                    android:id="@+id/three_view5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_2_3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.chaozhuo.familybrain.view.view3d.ThreeDView
+            android:id="@+id/three_view_mid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/threed_padding_width"
+            android:layout_marginRight="@dimen/threed_padding_width"
+            android:layout_weight="3.6"
+            android:transitionName="fewwind" />
+
+        <LinearLayout
+            android:id="@+id/layout_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/threed_padding_width"
+            android:layout_marginRight="@dimen/threed_padding_width"
+            android:layout_weight="3.6"
+            android:orientation="vertical">
+
+            <com.chaozhuo.familybrain.view.view3d.ThreeDView
+                android:id="@+id/three_view6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_43_3" />
+
+            <com.chaozhuo.familybrain.view.view3d.ThreeDView
+                android:id="@+id/three_view7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_43_4" />
+        </LinearLayout>
+
+        <com.chaozhuo.familybrain.view.view3d.ThreeDView
+            android:id="@+id/three_view8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/threed_padding_width"
+            android:layout_weight="3.6"
+            android:src="@drawable/com_mihoyo_bh3_qihoo" />
+
+        <com.chaozhuo.familybrain.view.view3d.ShadowView
+            android:id="@+id/shadow_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <com.chaozhuo.familybrain.view.view3d.ReflectView
+        android:visibility="gone"
+        android:id="@+id/reflect_mid"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/layout_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp" />
+
+</android.support.percent.PercentRelativeLayout>
