@@ -7,7 +7,7 @@
     android:background="@drawable/bg_test"
     android:orientation="horizontal">
 
-    <com.chaozhuo.familybrain.view.ViewPager
+    <com.chaozhuo.threed.view.ViewPager
         android:id="@+id/id_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

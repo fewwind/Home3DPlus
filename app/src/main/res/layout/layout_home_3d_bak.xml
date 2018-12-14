@@ -22,7 +22,7 @@
         android:layout_gravity="center"
         android:orientation="horizontal">
 
-        <com.chaozhuo.familybrain.view.view3d.ShadowView
+        <com.chaozhuo.threed.view.view3d.ShadowView
             android:id="@+id/shadow_left"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -35,7 +35,7 @@
             android:layout_weight="3.6"
             android:orientation="vertical">
 
-            <com.chaozhuo.familybrain.view.view3d.ThreeDView
+            <com.chaozhuo.threed.view.view3d.ThreeDView
                 android:id="@+id/three_view1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -44,7 +44,7 @@
                 android:src="@drawable/ic_43_1"
                 android:transitionName="fewwind" />
 
-            <com.chaozhuo.familybrain.view.view3d.ThreeDView
+            <com.chaozhuo.threed.view.view3d.ThreeDView
                 android:id="@+id/three_view2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -63,7 +63,7 @@
             android:layout_weight="3.6"
             android:orientation="vertical">
 
-            <com.chaozhuo.familybrain.view.view3d.ThreeDView
+            <com.chaozhuo.threed.view.view3d.ThreeDView
                 android:id="@+id/three_view3"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -75,7 +75,7 @@
                 android:layout_weight="1.6"
                 android:orientation="horizontal">
 
-                <com.chaozhuo.familybrain.view.view3d.ThreeDView
+                <com.chaozhuo.threed.view.view3d.ThreeDView
                     android:id="@+id/three_view4"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -83,7 +83,7 @@
                     android:layout_weight="1"
                     android:src="@drawable/ic_2_2" />
 
-                <com.chaozhuo.familybrain.view.view3d.ThreeDView
+                <com.chaozhuo.threed.view.view3d.ThreeDView
                     android:id="@+id/three_view5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -93,7 +93,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <com.chaozhuo.familybrain.view.view3d.ThreeDView
+        <com.chaozhuo.threed.view.view3d.ThreeDView
             android:id="@+id/three_view_mid"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -111,7 +111,7 @@
             android:layout_weight="3.6"
             android:orientation="vertical">
 
-            <com.chaozhuo.familybrain.view.view3d.ThreeDView
+            <com.chaozhuo.threed.view.view3d.ThreeDView
                 android:id="@+id/three_view6"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -119,7 +119,7 @@
                 android:layout_weight="1"
                 android:src="@drawable/ic_43_3" />
 
-            <com.chaozhuo.familybrain.view.view3d.ThreeDView
+            <com.chaozhuo.threed.view.view3d.ThreeDView
                 android:id="@+id/three_view7"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -128,7 +128,7 @@
                 android:src="@drawable/ic_43_4" />
         </LinearLayout>
 
-        <com.chaozhuo.familybrain.view.view3d.ThreeDView
+        <com.chaozhuo.threed.view.view3d.ThreeDView
             android:id="@+id/three_view8"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -136,14 +136,14 @@
             android:layout_weight="3.6"
             android:src="@drawable/com_mihoyo_bh3_qihoo" />
 
-        <com.chaozhuo.familybrain.view.view3d.ShadowView
+        <com.chaozhuo.threed.view.view3d.ShadowView
             android:id="@+id/shadow_right"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
 
-    <com.chaozhuo.familybrain.view.view3d.ReflectView
+    <com.chaozhuo.threed.view.view3d.ReflectView
         android:visibility="gone"
         android:id="@+id/reflect_mid"
         android:layout_width="150dp"

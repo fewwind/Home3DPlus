@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.chaozhuo.familybrain.MainActivity">
+    tools:context="com.chaozhuo.threed.MainActivity">
 
     <FrameLayout
         android:layout_width="match_parent"

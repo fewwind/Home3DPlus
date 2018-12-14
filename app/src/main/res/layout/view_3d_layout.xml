@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.chaozhuo.familybrain.view.view3d.ThreeDView
+    <com.chaozhuo.threed.view.view3d.ThreeDView
         android:id="@+id/threeD_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.chaozhuo.familybrain.view.view3d.RotateTextView
+    <com.chaozhuo.threed.view.view3d.RotateTextView
         android:id="@+id/threeD_tv_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true" />
 
-    <com.chaozhuo.familybrain.view.view3d.RotateTextView
+    <com.chaozhuo.threed.view.view3d.RotateTextView
         android:id="@+id/threeD_tv_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
         android:visibility="visible"
         android:gravity="center_vertical"
         android:paddingLeft="4dp"
-        android:text="家庭大脑"
+        android:text="我也有角度"
         android:textColor="#fff"
         android:textSize="8dp" />
 </RelativeLayout>

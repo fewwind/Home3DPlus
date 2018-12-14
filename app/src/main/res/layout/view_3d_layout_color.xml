@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.chaozhuo.familybrain.view.view3d.ThreeDView
+    <com.chaozhuo.threed.view.view3d.ThreeDView
         android:id="@+id/threeD_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -16,14 +16,14 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-        <com.chaozhuo.familybrain.view.view3d.RotateImageView
+        <com.chaozhuo.threed.view.view3d.RotateImageView
             android:id="@+id/threeD_iv"
             android:padding="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_launcher" />
 
-        <com.chaozhuo.familybrain.view.view3d.RotateTextView
+        <com.chaozhuo.threed.view.view3d.RotateTextView
             android:id="@+id/threeD_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
